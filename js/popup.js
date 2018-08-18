@@ -2,13 +2,13 @@ function emuWindow() {
     window.open("emulator.html");
 }
 function update() {
-    window.open("update.html","Updates","width=600, height=400");
+    window.open("../update.html","Updates","width=600, height=400");
 }
 function settings() {
-    window.open("settings.html","Settings","width=600, height=400");
+    window.open("../settings.html","Settings","width=600, height=400");
 }
 function getAngular() {
-    window.open("angularwizard.html","Get Angular","width=600, height=400");
+    window.open("../angularwizard.html","Get Angular","width=600, height=400");
 }
 function calculateStuff() {
     window.open("pages/calculator.html","Calculator","width=317, height=420");
@@ -44,14 +44,14 @@ function darkace(){
 
 
 function setdark() {
-      document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-dark.css" />';
+      document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-dark.css" />';
 darkace()
 }
 function darkset() {
   parent.window.setdark();
 }
 function lightset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-default.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-default.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 
@@ -60,31 +60,31 @@ function lightset() {
 
 
 function blueset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-blue.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-blue.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function indigoset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-indigo.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-indigo.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function pinkset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-pink.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-pink.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function orangeset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-orange.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-orange.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function greenset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-green.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-green.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function redset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-red.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-red.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 function grayset() {
-  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="css/themes/theme-gray.css" />';;
+  parent.window.document.getElementById("theme").innerHTML='<link  rel="stylesheet" href="../css/themes/theme-gray.css" />';;
   parent.window.editor.setTheme("ace/theme/chrome");
 }
 
