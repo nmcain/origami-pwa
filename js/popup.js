@@ -11,10 +11,10 @@ function getAngular() {
     window.open("../angularwizard.html","Get Angular","width=600, height=400");
 }
 function calculateStuff() {
-    window.open("pages/calculator.html","Calculator","width=317, height=420");
+    window.open("../pages/calculator.html","Calculator","width=317, height=420");
 }
 function openTerminal() {
-    window.open("pages/console.html","Console","width=600, height=420");
+    window.open("../pages/console.html","Console","width=600, height=420");
 }
 
 function noFeature() {
