@@ -1,0 +1,376 @@
+body {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  background-image:url('../img/wallpaper/2.png');
+  background-size:cover;
+}
+.navbar {
+  overflow: hidden;
+  margin:0;
+  
+  position: fixed;
+  bottom: 0;
+  height:50px;
+  width: 100%;
+  background-color: transparent;
+}
+.menuicon{
+  border-radius:100%;
+  background:rgba(0, 0, 0, 0.55);
+  height:30px;
+  width:30px;
+  float:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+.chromeicon{
+   border-radius:100%;
+  background:url('../img/icons/chrome.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.demoicon{
+    border-radius:100%;
+  background:url('../img/icons/demo.svg');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.playicon{
+   border-radius:100%;
+  background:url('../img/icons/playstore.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.origamiicon{
+
+  background:url('../img/icons/alt.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.settingsicon{
+    border-radius:100%;
+  background:url('../img/icons/settings.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.driveicon{
+    
+  background:url('../img/icons/drive.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.launcherico{
+  color:#eeeeee;
+margin-top:3px;
+margin-left:0px;
+font-size:20px;
+
+font-weight:bold;
+
+}
+.docsicon{
+  background:url('../img/icons/docs.png');
+  background-size:cover;
+  height:35px;
+  width:35px;
+  float:left;
+  margin-top:7.5px;
+  margin-left:20px;
+}
+.usermenu{
+  background:rgba(0, 0, 0, 0.55);
+  height:35px;
+  float:right;
+  border-radius:3px;
+  width:150px;
+  margin-top:7.5px;
+  margin-left:10px;
+  margin-right:7.5px;
+}
+.notifymenu{
+  margin-top:7.5px;
+  border:none;
+  height:35px;
+  width:35px;
+  background:rgba(0, 0, 0, 0.55);
+  border-radius:3px;
+  float:right;
+}
+.notif{
+  color:#EEEEEE;
+  margin-top:3px;
+    margin-left:1px;
+  font-size:15px;
+}
+.material-icons.md-10 { font-size: 10px; }
+.material-icons.md-15 { font-size: 15px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+#txt{
+    color:#eeeeee;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+.useroicon{
+    float:left;
+    margin-top:4px;
+    color:#eee;
+    font-size:15px;
+    font-weight:bold;
+    margin-left:6px;
+}
+
+.usericonmenu{
+   float:left;
+    color:#ffca28;
+    font-size:15px;
+    font-weight:bold;
+    margin-left:6px;
+}
+/*no-mdl ripple*/
+.ripple {
+  position: relative;
+  overflow: hidden;
+    border:none;
+  transform: translate3d(0, 0, 0);
+}
+
+.ripple:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s, opacity 1s;
+}
+
+.ripple:active:after {
+  transform: scale(0, 0);
+  opacity: .3;
+  transition: 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.row {
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row.row--ic-button {
+  padding-right: 12px;
+}
+.row.clickable {
+  cursor: pointer;
+}
+.row.clickable:hover {
+  background-color: #f2f2f2;
+}
+.row.clickable:active {
+  background-color: #eee;
+}
+
+.mrgn-s {
+  margin-right: 16px;
+}
+
+.mrgn {
+  margin-right: 32px;
+}
+
+.mrgn-l {
+  margin-right: 48px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+
+.material-icons.md-light {
+  color: white;
+}
+
+input[type=range].is-upgraded {
+  margin: 0;
+  width: 100%;
+}
+
+.mdl-slider__background-flex {
+  margin: 0;
+  width: 100%;
+}
+
+.tray-menu {
+  width: 300px;
+  margin: 40px 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+.tray-menu .row {
+  border-bottom: 1px solid #eee;
+}
+.tray-menu .row.lg {
+  height: 72px;
+}
+.tray-menu .avatar {
+  background-color: #ffca28;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+.tray-menu .avatar:before {
+  content: "OG";
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.tray-menu .small {
+  font-size: 12px;
+}
+.tray-menu .secondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.tray-menu .final {
+  background-color: #eee;
+  border-bottom: none;
+}
+.tray-menu .final .mdl-button--icon:not(:last-child) {
+  margin-right: 8px;
+}
+.tray-menu .details div:last-child {
+  text-overflow: ellipsis;
+}
+
+.volume-slider {
+  background-color: #263238;
+  width: 300px;
+  min-height: 56px;
+  height: 56px;
+  flex-direction: column;
+  overflow: hidden;
+  transition: height 0.2s ease;
+}
+.volume-slider.active {
+  height: 112px;
+}
+.volume-slider .row {
+  flex-shrink: 0;
+}
+
+#row-settings .mrgn {
+  transition: transform 0.2s ease-out;
+}
+
+#row-settings:hover .mrgn {
+  transform: rotate(90deg);
+}
+
+
+.toolbar {
+  height: 64px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border-bottom: 1px solid #eee;
+}
+.toolbar .title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.toolbar .mdl-switch {
+  width: 40px;
+}
+
+.pane {
+  width: 300px;
+  height: 400px;
+}
+.pane .row {
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+.pane .row.noborder {
+  border-bottom: none;
+}
+.pane .row:not(.nohover):hover {
+  background-color: #f2f2f2;
+}
+
+.mdl-card {
+  margin-right: 5px;
+     overflow: hidden;
+  
+
+  position: fixed;
+  margin-top:20%;
+     font-family: 'Roboto', sans-serif;
+}
+
