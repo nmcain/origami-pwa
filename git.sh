@@ -1,3 +1,4 @@
+git pull origin master
 git add .
 echo Initializing
 sleep 1
